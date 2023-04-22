@@ -8,6 +8,7 @@ int main(void)
 {
 	int num;
 	char letter;
+
 	num = 0;
 	while (num < 10)
 	{
@@ -19,5 +20,5 @@ int main(void)
 		putchar(letter);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
